@@ -11,4 +11,4 @@ class ChattyStudent < Student
     super.index do
     10.times { |i| puts "Pick me!" }
     end
-  
+  end
