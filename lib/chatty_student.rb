@@ -8,7 +8,7 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    super
+    super.index do
     10.times { |i| puts "Pick me!" }
     end
   
