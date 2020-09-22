@@ -12,4 +12,3 @@ class ChattyStudent < Student
     10.times { |i| puts "Pick me!" }
     end
   
-end
